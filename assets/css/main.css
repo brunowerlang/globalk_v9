@@ -1,15 +1,4 @@
-/**
-* Template Name: Dewi
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -1369,7 +1358,8 @@ section,
 .features .tab-pane h3 {
   color: var(--heading-color);
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .features .tab-pane ul {
@@ -1741,7 +1731,7 @@ section,
 .contact .info-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 24px 0 30px 0;
+  padding: 2rem 1rem;
 }
 
 .contact .info-item i {
@@ -1771,6 +1761,7 @@ section,
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  text-align: center;
 }
 
 .contact .php-email-form {
@@ -1963,6 +1954,16 @@ text-transform: uppercase;
 
 /*-- PAGE HISTORY --*/
 
+.history-page li h4 {
+  font-family: var(--default-font) !important;
+
+}
+
+.history-page .tab-pane h3 {
+  font-family: var(--default-font) !important;
+  text-transform: uppercase;
+}
+
 .hero.history {
 
   min-height: 50vh;
@@ -2009,7 +2010,7 @@ color: #000 !important;
   }
 
 
-  .history-page #features {
+  .history-page #features2 {
     margin-top: 5rem;
   }
 
