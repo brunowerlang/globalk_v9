@@ -285,7 +285,7 @@ h6 {
 
 .header:hover .navmenu a {
 
-  color: #000 !important;
+  color: var(--nav-dropdown-color) !important;
 }
 
 
@@ -300,8 +300,9 @@ h6 {
 }
 
 .header:hover .cta-btn {
-  color: #000 !important;
-  border-color: #000 !important;;
+  color: var(--nav-dropdown-color) !important;
+    border-color: var(--nav-dropdown-color) !important;
+
 
 }
 
@@ -312,7 +313,7 @@ h6 {
 
 .scrolled .header .navmenu a {
 
-  color: #000 !important;
+  color: var(--nav-dropdown-color);
 }
 
 .scrolled .header .logo-white {
@@ -331,8 +332,8 @@ h6 {
 }
 
 .scrolled .header .cta-btn {
-  color: #000 !important;
-  border-color: #000 !important;;
+  color: var(--nav-dropdown-color) !important;
+  border-color: var(--nav-dropdown-color) !important;
 
 }
 
@@ -482,12 +483,16 @@ h6 {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--nav-color);
+    color: var(--contrast-color);
     font-size: 28px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;
     transition: color 0.3s;
+  }
+
+  .scrolled   .mobile-nav-toggle {
+    color: var(--nav-dropdown-color);
   }
 
   .navmenu {
@@ -683,7 +688,7 @@ h6 {
   padding-right: 3px;
   font-size: 13px;
   line-height: 0;
-  color: var(--accent-color);
+  color: var(--nav-color);
 }
 
 .footer .footer-links ul li {
@@ -962,15 +967,15 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 88vh;
   position: relative;
-  padding: 80px 0;
+  padding: 0 !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero img {
+.hero video {
   position: absolute;
   inset: 0;
   display: block;
@@ -982,7 +987,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1155,7 +1160,7 @@ section,
 .stats .stats-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 15px 30px;
 }
 
 .stats .stats-item i {
@@ -1271,8 +1276,6 @@ section,
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
 }
 
 .clients .client-logo img:hover {
@@ -1879,6 +1882,15 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .mobile-margin-auto {
+    margin: 1rem auto;
+    width: 95% !important;
+  }
+}
+
+
 .service-details .services-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
@@ -1919,6 +1931,13 @@ text-transform: uppercase;
 .service-details h3 {
   font-size: 18px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .service-details h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 
 .service-details h4 {
@@ -1983,7 +2002,7 @@ display: none;
 
 
 .history-page .navmenu a, .navmenu a:focus {
-color: #000 !important;
+color: var(--nav-dropdown-color) !important;
 
 }
 
@@ -2005,8 +2024,8 @@ color: #000 !important;
 
   .history-page .header .cta-btn {
 
-    border-color: #000;
-    color: #000;
+    border-color: var(--nav-dropdown-color);
+    color: var(--nav-dropdown-color);
   }
 
 
