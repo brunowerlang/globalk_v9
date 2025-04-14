@@ -491,6 +491,10 @@ h6 {
     transition: color 0.3s;
   }
 
+  .history-page .mobile-nav-toggle {
+    color: var(--nav-dropdown-color);
+  }
+
   .scrolled   .mobile-nav-toggle {
     color: var(--nav-dropdown-color);
   }
@@ -960,7 +964,12 @@ section,
   .section-title p {
     font-size: 24px !important;
   }
+  .section-title h3 {
+    font-size: 15px !important;
+    font-weight: 400;
+  }
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1061,7 +1070,7 @@ section,
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  width: 40%;
+ 
 }
 
 .features .btn-get-started:hover {
@@ -1933,12 +1942,6 @@ text-transform: uppercase;
   font-weight: 400;
 }
 
-@media (max-width: 768px) {
-  .service-details h3 {
-    font-size: 16px;
-    font-weight: 400;
-  }
-}
 
 .service-details h4 {
   font-size: 20px;
