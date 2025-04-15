@@ -1070,7 +1070,14 @@ section,
   text-transform: uppercase;
   display: flex;
   justify-content: center;
- 
+ width: 40%;
+}
+
+@media (max-width: 992px) {
+  .features .btn-get-started {
+margin: auto;
+    width: 95% !important;
+  }
 }
 
 .features .btn-get-started:hover {
@@ -1604,6 +1611,12 @@ section,
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
+}
+
+.business-page .portfolio-info li {
+font-weight: 600;
+text-transform: uppercase;
+font-size: 13px;
 }
 
 .portfolio .portfolio-content .portfolio-info {
