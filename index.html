@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>GlobalK</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>GlobalK - Sua porta de entrada para o mercado brasileiro</title>
+  <meta name="description" content="A GlobalK oferece soluções completas para empresas estrangeiras entrarem no mercado brasileiro, desde configuração legal até logística, marketing e operações.">
+  <meta name="keywords" content="entrada no mercado brasileiro, importação brasil, distribuição brasil, tecnologia brasil, compaq brasil, economize, multi-k">
+  
+  <!-- Meta tags Open Graph para compartilhamento em redes sociais -->
+  <meta property="og:title" content="GlobalK - Sua porta de entrada para o mercado brasileiro">
+  <meta property="og:description" content="Soluções completas para empresas estrangeiras entrarem no mercado brasileiro.">
+  <meta property="og:image" content="https://seusite.com/assets/img/logo-1.png">
+  <meta property="og:url" content="https://seusite.com">
+  <meta property="og:type" content="website">
+  
+  <!-- Meta tags Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GlobalK - Sua porta de entrada para o mercado brasileiro">
+  <meta name="twitter:description" content="Soluções completas para empresas estrangeiras entrarem no mercado brasileiro.">
+  <meta name="twitter:image" content="https://seusite.com/assets/img/logo-1.png">
+  
+  <!-- Idioma da página e URL canônica -->
+  <link rel="alternate" hreflang="pt-br" href="https://seusite.com">
+  <link rel="canonical" href="https://seusite.com">
+
+  <!-- Preload de recursos críticos -->
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="assets/js/main.js" as="script">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -26,8 +48,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-
 </head>
 
 <body class="index-page">
@@ -35,35 +55,28 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo-1.png" alt="" class="logo-red">
-         <img src="assets/img/logo-2.png" alt="" class="logo-white"> 
-        
+      <a href="index.html" class="logo d-flex align-items-center me-auto" aria-label="GlobalK Homepage">
+        <img src="assets/img/logo-1.png" alt="Logo GlobalK - Empresa de soluções para entrada no mercado brasileiro" class="logo-red">
+        <img src="assets/img/logo-2.png" alt="Logo GlobalK versão branca" class="logo-white"> 
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <nav id="navmenu" class="navmenu" aria-label="Menu principal">
         <ul>
-          
           <li><a href="index.html#about">Services</a></li>
-       
-
           <li class="dropdown"><a href="#features"><span>Business Units</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="globalk.html">Globalk</a></li>
-              <li><a href="economize.html">Economize</a></li>
-              <li><a href="multik.html">Multi-K</a></li>
-              <li><a href="marketplaces.html">Marketplaces</a></li>
+              <li><a href="globalk.html" title="Conheça os serviços da GlobalK">Globalk</a></li>
+              <li><a href="economize.html" title="Produtos com preços acessíveis">Economize</a></li>
+              <li><a href="multik.html" title="Soluções Multi-K">Multi-K</a></li>
+              <li><a href="marketplaces.html" title="Nossos marketplaces">Marketplaces</a></li>
             </ul>
           </li>
-
-          <li><a href="history.html">History</a></li>
-        
- 
+          <li><a href="history.html" title="Conheça nossa história">History</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="#contact">Contact</a>
+      <a class="cta-btn" href="#contact" title="Entre em contato conosco">Contact</a>
 
     </div>
   </header>
@@ -71,11 +84,10 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background row">
+    <section id="hero" class="hero section dark-background row" aria-label="Introdução à GlobalK">
 
       <video autoplay muted loop playsinline class="hero-video" data-aos="fade-in">
         <source src="assets/img/video-gero.mp4" type="video/mp4">
-
       </video>
       
       <div class="container d-flex flex-column align-items-center text-center px-5 px-lg-0">
@@ -83,51 +95,45 @@
         <h2 data-aos="fade-up" data-aos-delay="150">to the Brazilian market.</h2>
         <p data-aos="fade-up" data-aos-delay="200">We have know how to insert new products in the Brazilian market.</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="#about" class="btn-get-started">Get Started</a>
-           </div>
+          <a href="#about" class="btn-get-started" title="Saiba mais sobre nossos serviços">Get Started</a>
+        </div>
       </div>
-     
-
     </section><!-- /Hero Section -->
 
- <!-- About Section -->
-<section id="about" class="about section service-details">
+    <!-- About Section -->
+    <section id="about" class="about section service-details">
 
-    <!-- Section Title -->
-    <div class="container section-title px-4 px-lg-0 " data-aos="fade-up" id="">
-      <h2>About</h2>
-      <p>End-to-End Market Entry</p>
-      <h3>Comprehensive support for foreign companies entering Brazil, from legal setup to logistics, marketing, and operations.</h3>
-    </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title px-4 px-lg-0 " data-aos="fade-up" id="">
+        <h2>About</h2>
+        <p>End-to-End Market Entry</p>
+        <h3>Comprehensive support for foreign companies entering Brazil, from legal setup to logistics, marketing, and operations.</h3>
+      </div><!-- End Section Title -->
 
-    <div class="container ">
+      <div class="container ">
 
-      <div class="row gy-4">
+        <div class="row gy-4">
 
-        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-         
-
-        
-          <div class="services-list">
-            <a href="#"><span>Product Development:</span> <p>Creation and optimization of technology products, including notebooks, desktops, and tablets.</p></a>
-            <a href="#"><span>Brand Revitalization:</span> <p>Rebuilding iconic brands like Compaq through strategic partnerships and manufacturing.</p></a>
-            <a href="#"><span>Electronics Outlet Management:</span> <p>Operating a 1,950 m² outlet in Sorocaba with a focus on refurbished products.</p></a>
-            <a href="#"><span>Refurbishing and Repair Services:</span> <p>Specialized in restoring Compaq, HP, and other branded devices.</p></a>
-            <a href="#"><span>E-commerce Operations:</span> <p>Direct and comprehensive online sales through Mercado Livre, B2W, Via Varejo, Magalu, and other platforms.</p></a>
-            <a href="#"><span>Customer Support:</span> <p>Full support through call centers, SAC, and online complaint management.</p></a>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" title="Desenvolvimento de produtos tecnológicos"><span>Product Development:</span> <p>Creation and optimization of technology products, including notebooks, desktops, and tablets.</p></a>
+              <a href="#" title="Revitalização de marcas icônicas"><span>Brand Revitalization:</span> <p>Rebuilding iconic brands like Compaq through strategic partnerships and manufacturing.</p></a>
+              <a href="#" title="Gestão de outlets de eletrônicos"><span>Electronics Outlet Management:</span> <p>Operating a 1,950 m² outlet in Sorocaba with a focus on refurbished products.</p></a>
+              <a href="#" title="Serviços de recondicionamento e reparo"><span>Refurbishing and Repair Services:</span> <p>Specialized in restoring Compaq, HP, and other branded devices.</p></a>
+              <a href="#" title="Operações de e-commerce em múltiplas plataformas"><span>E-commerce Operations:</span> <p>Direct and comprehensive online sales through Mercado Livre, B2W, Via Varejo, Magalu, and other platforms.</p></a>
+              <a href="#" title="Suporte completo ao cliente"><span>Customer Support:</span> <p>Full support through call centers, SAC, and online complaint management.</p></a>
+            </div>
           </div>
-        
-        </div>
 
-        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/exemplo-1.png" alt="" class="img-fluid services-img" style="">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/exemplo-1.png" alt="Demonstração dos serviços da GlobalK para entrada no mercado brasileiro" class="img-fluid services-img">
+          </div>
+
         </div>
 
       </div>
 
-    </div>
-
-</section><!-- /About Section -->
+    </section><!-- /About Section -->
 
 
     <!-- Stats Section -->
@@ -192,22 +198,21 @@
         <div class="row gy-4">
 
           <div class="col-xl-3 col-md-3 col-6 client-logo">
-            <img src="assets/img/logo-1.png" class="img-fluid" alt="">
+            <img src="assets/img/logo-1.png" class="img-fluid" alt="Logo GlobalK">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="Logo Cliente 2">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-3 col-6 client-logo">
-            <img src="assets/img/economize.webp" class="img-fluid" alt="">
+            <img src="assets/img/economize.webp" class="img-fluid" alt="Logo Economize">
           </div><!-- End Client Item -->
 
           <div class="col-xl-3 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="Logo Cliente 4">
           </div><!-- End Client Item -->
 
-       
         </div>
 
       </div>
@@ -215,23 +220,18 @@
     </section><!-- /Clients Section -->
 
 
-  
-  
-    
-
-    
     <!-- Business Units2 -->
     <section id="features" class="features section">
 
-  <!-- Section Title -->
-  <div  class="container section-title" data-aos="fade-up">
-    <h2>Services</h2>
-    <p>Business Units<br></p>
-  </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Business Units<br></p>
+      </div><!-- End Section Title -->
 
       <div class="container">
   
-        <ul class="nav nav-tabs row  d-flex px-2 px-lg-5" data-aos="fade-up" data-aos-delay="100">
+        <ul class="nav nav-tabs row d-flex px-2 px-lg-5" data-aos="fade-up" data-aos-delay="100">
           <li class="nav-item col-xl-3 col-md-3 col-6 my-2 ">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
               <i class="bi bi-globe d-none d-sm-block"></i>
@@ -266,7 +266,7 @@
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
 
                 <h3>Smart Solutions to Drive Your Business Forward</h3>
-                <p >
+                <p>
                   At GlobalK, we combine innovation and technology to turn challenges into opportunities.  
                   Our commitment is to deliver efficiency and sustainable growth for your business.
                 </p>
@@ -279,15 +279,13 @@
                   With a strategic approach and tailored solutions, we help your company grow with innovation and efficiency.  
                   Discover how GlobalK can take your business to the next level.
                 </p>
-                <a href="globalk.html" class="btn-get-started ">See More</a>
+                <a href="globalk.html" class="btn-get-started" title="Conheça mais sobre a GlobalK">See More</a>
 
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/globalk-unit (1).jpg" alt="Team working on innovative solutions" class="img-fluid">
+                <img src="assets/img/globalk-unit (1).jpg" alt="Equipe GlobalK trabalhando em soluções inovadoras para empresas" class="img-fluid">
               </div>
             </div>
-          
-          
           </div><!-- End Tab Content Item -->
 
 
@@ -307,10 +305,10 @@
                   <li><i class="bi bi-check2-all"></i> <span>Full manufacturer specifications and performance</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Premium quality without the premium price</span></li>
                 </ul>
-                <a href="economize.html" class="btn-get-started">Shop Premium Open-Box</a>
+                <a href="economize.html" class="btn-get-started" title="Compre produtos premium com preços acessíveis">Shop Premium Open-Box</a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/economize-unit.jpg" alt="Premium open-box electronics in original packaging from Economize.vc" class="img-fluid">
+                <img src="assets/img/economize-unit.jpg" alt="Eletrônicos premium open-box em embalagens originais da Economize.vc" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -332,10 +330,10 @@
                 <p class="fst-italic">
                   Start your organization journey with Multi-K — where quality meets practicality.
                 </p>
-                <a href="products.html" class="btn-get-started ">View Products</a>
+                <a href="products.html" class="btn-get-started" title="Veja nossos produtos organizadores">View Products</a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/multi-k.png" alt="Multi-K Organizers" class="img-fluid">
+                <img src="assets/img/multi-k.png" alt="Organizadores Multi-K para cabos e acessórios" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -358,10 +356,10 @@
                   <li><i class="bi bi-check2-all"></i> <span>Available on your favorite marketplaces: Americanas, Mercado Livre, Amazon, and Magalu.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Reliable quality, secure shopping, and fast delivery.</span></li>
                 </ul>
-                <a href="https://www.mercadolivre.com.br/perfil/GLOBAL-K" class="btn-get-started " target="_blank">Explore Our Offers</a>
+                <a href="https://www.mercadolivre.com.br/perfil/GLOBAL-K" class="btn-get-started" target="_blank" rel="noopener" title="Visite nossa loja no Mercado Livre">Explore Our Offers</a>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/marketplace.png" alt="Global-K Open Box Deals" class="img-fluid">
+                <img src="assets/img/marketplace.png" alt="Ofertas de produtos open box da Global-K em marketplaces" class="img-fluid">
               </div>
             </div>
           </div><!-- End Tab Content Item -->
@@ -425,19 +423,19 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -468,41 +466,39 @@
       <div class="row gy-4 justify-content-between">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <img src="/assets/img/logo-2.png" alt="" >
+            <img src="/assets/img/logo-2.png" alt="Logo GlobalK versão branca">
           </a>
           <div class="footer-contact pt-3">
-            <p>  Av. Liberdade, 6.315</p>
+            <p>Av. Liberdade, 6.315</p>
             <p>Sorocaba, Brazil - CEP 18087-170</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+55 11 3230-5636</span></p>
             <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Business Units</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">History</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" title="Página inicial">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about" title="Nossos serviços">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#features" title="Nossas unidades de negócio">Business Units</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="history.html" title="Nossa história">History</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" title="Termos de serviço">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" title="Política de privacidade">Privacy policy</a></li>
           </ul>
         </div>
-
-      
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="newsletter-form"><input type="email" name="email" aria-label="Email para newsletter"><input type="submit" value="Subscribe"></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -521,11 +517,11 @@
   </footer>
 
 
-  <button id="translateButton"  ></button>
-  <button id="translateButton2" ></button>
-  <button id="translateButton3" ></button>
+  <button id="translateButton" aria-label="Traduzir"></button>
+  <button id="translateButton2" aria-label="Traduzir opção 2"></button>
+  <button id="translateButton3" aria-label="Traduzir opção 3"></button>
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Voltar ao topo"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -544,8 +540,55 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="assets/js/traducao.js"></script>
+  <script src="assets/js/traducao.js"></script>
 
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GlobalK",
+    "url": "https://seusite.com",
+    "logo": "https://seusite.com/assets/img/logo-1.png",
+    "description": "A GlobalK oferece soluções completas para empresas estrangeiras entrarem no mercado brasileiro.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Liberdade, 6.315 - Prédio 05-B - Iporanga",
+      "addressLocality": "Sorocaba",
+      "addressRegion": "SP",
+      "postalCode": "18087-170",
+      "addressCountry": "BR"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-11-3230-5636",
+      "contactType": "customer service"
+    },
+    "sameAs": [
+      "https://www.facebook.com/globalk",
+      "https://www.instagram.com/globalk",
+      "https://www.linkedin.com/company/globalk"
+    ]
+  }
+  </script>
+
+  <!-- Dados estruturados para serviços -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Market Entry Services",
+    "provider": {
+      "@type": "Organization",
+      "name": "GlobalK"
+    },
+    "description": "Serviços completos para entrada no mercado brasileiro, incluindo configuração legal, logística, marketing e operações.",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Brazil"
+    }
+  }
+  </script>
 
 </body>
 
