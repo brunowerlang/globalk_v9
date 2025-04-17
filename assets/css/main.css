@@ -53,6 +53,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  overflow-x: hidden !important;
 }
 
 a {
@@ -962,7 +963,7 @@ section,
 
 @media (max-width: 768px) {
   .section-title p {
-    font-size: 24px !important;
+    font-size: 20px !important;
   }
   .section-title h3 {
     font-size: 15px !important;
@@ -1398,6 +1399,13 @@ margin: auto;
   font-size: 24px;
   
 }
+
+@media (max-width: 992px) {
+.features .tab-pane h2 {
+  font-size: 18px;
+}
+}
+
 
 .features .tab-pane ul {
   list-style: none;
