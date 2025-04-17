@@ -1381,6 +1381,14 @@ margin: auto;
   text-transform: uppercase;
 }
 
+.features .tab-pane h2 {
+
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 24px;
+  
+}
+
 .features .tab-pane ul {
   list-style: none;
   padding: 0;

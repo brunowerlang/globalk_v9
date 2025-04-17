@@ -63,10 +63,14 @@
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        preloader.remove();
+      }, 500); // ajuste o tempo se quiser
     });
   }
+  
+  
 
   /**
    * Scroll top button
