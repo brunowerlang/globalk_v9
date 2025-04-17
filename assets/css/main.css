@@ -978,7 +978,7 @@ section,
 
   .hero {
 
-    width: 105%;
+    width: 105% !important;
     overflow-x:hidden !important;
   }
 }
