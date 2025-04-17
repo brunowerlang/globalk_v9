@@ -974,6 +974,15 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+@media (max-width: 1199px) {
+
+  .hero {
+
+    width: 105%;
+    overflow-x:hidden !important;
+  }
+}
+
 .hero {
   width: 100%;
   min-height: 88vh;
@@ -992,6 +1001,7 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  padding: 0 !important;
 }
 
 .hero:before {
