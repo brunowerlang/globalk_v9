@@ -1136,6 +1136,37 @@ opacity: 0.4;
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.dropdown i::after {
+    background-color: transparent;
+}
+
+.scroll-top i::after {
+  background-color: transparent;
+}
+
+ i {
+  position: relative;
+}
+
+
+ i:before {
+ z-index: 2;
+ position: relative;
+}
+
+i:after {
+
+      content: "";
+    background-color: #ff00004d;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    right: -3px;
+    width: 20px;
+    height: 20px;
+    z-index: 0;
+}
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
@@ -1186,6 +1217,14 @@ color: #691700 !important;
 
 }
 
+.detalhe-bg {
+
+  background-image: url(/assets/img/detalhe-fundo-bg.svg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+background-size: cover;
+}
 
 
 /*--------------------------------------------------------------
@@ -2203,4 +2242,5 @@ color: var(--nav-dropdown-color) !important;
 .section,
 .stats {
   overflow: visible;
+  position: relative;
 }
