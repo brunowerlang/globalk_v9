@@ -27,7 +27,108 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-
+  <style>
+    .timeline-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    
+    .timeline-item {
+      display: flex;
+      margin-bottom: 60px;
+      align-items: flex-start;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 40px;
+    }
+    
+    .timeline-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    
+    .timeline-year {
+      flex: 0 0 200px;
+      padding-right: 40px;
+      text-align: right;
+    }
+    
+    .timeline-year h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--accent-color);
+      margin: 0;
+      line-height: 1;
+    }
+    
+    .timeline-content {
+      flex: 1;
+      padding-left: 40px;
+      border-left: 3px solid var(--accent-color);
+      position: relative;
+    }
+    
+    .timeline-content::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 13px;
+      height: 13px;
+      background: var(--accent-color);
+      border-radius: 50%;
+    }
+    
+    .timeline-content h3 {
+      color: var(--accent-color);
+      font-weight: 600;
+      margin-bottom: 15px;;
+    }
+    
+    .timeline-content p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    
+    .timeline-content a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    
+    .timeline-content a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .timeline-item {
+        flex-direction: column;
+        margin-bottom: 40px;
+      }
+      
+      .timeline-year {
+        flex: none;
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+      
+      .timeline-year h2 {
+        font-size: 2.5rem;
+      }
+      
+      .timeline-content {
+        padding-left: 20px;
+        border-left: 2px solid var(--accent-color);
+      }
+      
+      .timeline-content::before {
+        left: -6px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+  </style>
 </head>
 
 <body class="history-page">
@@ -68,250 +169,128 @@
     </div>
   </header>
 
-  <main class="main">
+  <main class="main" style="    margin-top: 100px;">
 
-
-
-    <!-- Business Units2 -->
-    <section id="features2" class="features history section">
+    <!-- History Section -->
+    <section id="history" class="history section">
 
       <!-- Section Title -->
-      <div  class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
         <p>OUR HISTORY<br></p>
         <h3>We have know how to insert new products in the Brazilian market.</h3>
       </div><!-- End Section Title -->
-    
-          <div class="container">
-      
-            <ul class="nav nav-tabs row  d-flex px-3 px-lg-5" data-aos="fade-up" data-aos-delay="100">
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                  <i>2013</i>
-                  <h4 class="d-none d-lg-block">2013</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                  <i>2016</i>
-                  <h4 class="d-none d-lg-block">2016</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                  <i>2017</i>
-                  <h4 class="d-none d-lg-block">2017</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-                  <i>2018</i>
-                  <h4 class="d-none d-lg-block">2018</h4>
-                </a>
-              </li>
-    
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
-                  <i>2019</i>
-                  <h4 class="d-none d-lg-block">2019</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6">
-                  <i>2020</i>
-                  <h4 class="d-none d-lg-block">2020</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-7">
-                  <i>2024</i>
-                  <h4 class="d-none d-lg-block">2024</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-8">
-                  <i>2025</i>
-                  <h4 class="d-none d-lg-block">2025</h4>
-                </a>
-              </li>
-              <li class="nav-item  col-4 p-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-9">
-                  <i>2026</i>
-                  <h4 class="d-none d-lg-block">2026</h4>
-                </a>
-              </li>
-            
-    
-            </ul><!-- End Tab Nav -->
-      
-            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-      
-              <div class="tab-pane fade active show px-3 px-lg-5" id="features-tab-1">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-                    <h3>HP & GLOBALK Agreement</h3>
-                    <p >
-                      HP and GLOBALK signed a Compaq Brand licensing agreement in September 2013. They began developing the Compaq product line in Brazil with a focus on notebooks, detachables, desktops, and tablets.
-                    </p>
-                   
-                    <p>
-                      In partnership with HP Brazil, they developed local products under the HP Brand, including notable projects such as the Ipanema, Copacabana, and Leblon projects.
-                    </p>
-                    
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2013.jpg" alt="Team working on innovative solutions" class="img-fluid ">
-                  </div>
-                </div>
-              
-              
-              </div><!-- End Tab Content Item -->
-      
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-2">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-                    <h3>Outlet in Sorocaba</h3>
-                    <p>
-                      In August 2016, we opened an official outlet in Sorocaba. The outlet focused on refurbished HP products and offered quality products at affordable prices.
-                     </p>
-                    <p class="fst-italic">
-                      Website: <a href="www.sincplace.com.br">sincplace.com.br</a>
-                    </p>
-            
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2016.webp" alt="Smart savings solutions" class="img-fluid ">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-              
-      
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-3">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column">
-                  <h3> E-Commerce and Mercado Livre</h3>
-                    <p>
-                      In September 2017, we expanded into e-commerce and began operations on Mercado Livre, Brazil's leading online marketplace, offering a wide range of refurbished HP products. 
-                    </p>
-                   
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2017.jpg" alt="Upgrade your PC" class="img-fluid">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-              
-      
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-4">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-                    <h3>New Business - Troque Seu PC</h3>
-                    <p> In December 2018, we launched the new business venture TroqueSeuPC.com.br, focusing on the refurbishment and resale of used computers.</p>
 
-                     <p>We also launched RenovaPC.com.br, providing similar services aimed at refreshing and renewing older PCs.
-                    </p>
-                    <p>
-                      Upgrade your setup with top-quality products, exclusive offers, and reliable customer service.
-                    </p>
-
-                    <p class="fst-italic">
-                      Website: <a href="http://troqueseupc.com.br/home">troqueseupc.com.br</a>
-                    </p>
-            
-                 
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2018.jpg" alt="Tech deals at SincStore" class="img-fluid ">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-    
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-5">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-                    <h3>New Business - Amazon Open Box</h3>
-                    <p>
-                      In June 2019, we began selling refurbished products on Amazon through the Open Box program, further expanding their product reach. 
-                    </p>
-                    <p >
-                      They also expanded their offerings on Mercado Livre under the Open Box category, providing customers with access to high-quality refurbished products.
-                    </p>
-                 
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2019.jpg" alt="Tech deals at SincStore" class="img-fluid ">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-    
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-6">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-                    <h3>M&A with Positivo</h3>
-                    <p>
-                      In September 2020, we entered into a merger and acquisition (M&A) with Positivo Tecnologia, further solidifying their position in the Brazilian technology market under the Compaq brand.
-                    </p>
-  
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2020.jpg" alt="Tech deals at SincStore" class="img-fluid ">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-    
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-7">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column">
-                    <h3>Economize.vc</h3>
-                    <p>
-                      In July 2024, we launched Economize.vc, a new initiative focused on providing discounts and high quality new and Open Box products to Brazilian consumers.
-                    </p>
-
-                    
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2024.jpg" alt="Tech deals at SincStore" class="img-fluid">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-    
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-8">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column">
-                    <h3>2025 -</h3>
-                    <p>
-                      In 2025, the focus will be to consolidate and amplify the Open Box business, strengthening its market presence and reach. Additionally, plans will be initiated to start a new Router business, targeting both Brazil and the USA.
-                    </p>
-                   
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2025.jpg" alt="Tech deals at SincStore" class="img-fluid">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-    
-              <div class="tab-pane fade px-3 px-lg-5" id="features-tab-9">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column">
-                    <h3>2026 - Open Box Leadership</h3>
-                    <p>
-                      In 2026, the goal is to become the major buyer and seller of Open Box products in Brazil, solidifying market leadership and expanding operational capabilities.
-                    </p>
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/history/2026.jpg" alt="Tech deals at SincStore" class="img-fluid">
-                  </div>
-                </div>
-              </div><!-- End Tab Content Item -->
-    
-         
-              
-      
-            </div>
-      
+      <div class="timeline-container" data-aos="fade-up" data-aos-delay="200">
+        
+        <!-- 2013 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2013</h2>
           </div>
-      
-        </section> 
+          <div class="timeline-content">
+            <h3>HP & GLOBALK Agreement</h3>
+            <p>HP and GLOBALK signed a Compaq Brand licensing agreement in September 2013. They began developing the Compaq product line in Brazil with a focus on notebooks, detachables, desktops, and tablets.</p>
+            <p>In partnership with HP Brazil, they developed local products under the HP Brand, including notable projects such as the Ipanema, Copacabana, and Leblon projects.</p>
+          </div>
+        </div>
+
+        <!-- 2016 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2016</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>Outlet in Sorocaba</h3>
+            <p>In August 2016, we opened an official outlet in Sorocaba. The outlet focused on refurbished HP products and offered quality products at affordable prices.</p>
+            <p class="fst-italic">Website: <a href="http://www.sincplace.com.br">sincplace.com.br</a></p>
+          </div>
+        </div>
+
+        <!-- 2017 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2017</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>E-Commerce and Mercado Livre</h3>
+            <p>In September 2017, we expanded into e-commerce and began operations on Mercado Livre, Brazil's leading online marketplace, offering a wide range of refurbished HP products.</p>
+          </div>
+        </div>
+
+        <!-- 2018 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2018</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>New Business - Troque Seu PC</h3>
+            <p>In December 2018, we launched the new business venture TroqueSeuPC.com.br, focusing on the refurbishment and resale of used computers.</p>
+            <p>We also launched RenovaPC.com.br, providing similar services aimed at refreshing and renewing older PCs.</p>
+            <p>Upgrade your setup with top-quality products, exclusive offers, and reliable customer service.</p>
+            <p class="fst-italic">Website: <a href="http://troqueseupc.com.br/home">troqueseupc.com.br</a></p>
+          </div>
+        </div>
+
+        <!-- 2019 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2019</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>New Business - Amazon Open Box</h3>
+            <p>In June 2019, we began selling refurbished products on Amazon through the Open Box program, further expanding their product reach.</p>
+            <p>They also expanded their offerings on Mercado Livre under the Open Box category, providing customers with access to high-quality refurbished products.</p>
+          </div>
+        </div>
+
+        <!-- 2020 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2020</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>M&A with Positivo</h3>
+            <p>In September 2020, we entered into a merger and acquisition (M&A) with Positivo Tecnologia, further solidifying their position in the Brazilian technology market under the Compaq brand.</p>
+          </div>
+        </div>
+
+        <!-- 2024 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2024</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>Economize.vc</h3>
+            <p>In July 2024, we launched Economize.vc, a new initiative focused on providing discounts and high quality new and Open Box products to Brazilian consumers.</p>
+          </div>
+        </div>
+
+        <!-- 2025 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2025</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>Future Growth</h3>
+            <p>In 2025, the focus will be to consolidate and amplify the Open Box business, strengthening its market presence and reach. Additionally, plans will be initiated to start a new Router business, targeting both Brazil and the USA.</p>
+          </div>
+        </div>
+
+        <!-- 2026 -->
+        <div class="timeline-item">
+          <div class="timeline-year">
+            <h2>2026</h2>
+          </div>
+          <div class="timeline-content">
+            <h3>Open Box Leadership</h3>
+            <p>In 2026, the goal is to become the major buyer and seller of Open Box products in Brazil, solidifying market leadership and expanding operational capabilities.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -395,8 +374,6 @@
 
     </section><!-- /Contact Section -->
 
-
-
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -433,8 +410,6 @@
           </ul>
         </div>
 
-      
-
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
@@ -456,7 +431,6 @@
     </div>
 
   </footer>
-
 
   <button id="translateButton"  ></button>
   <button id="translateButton2" ></button>
@@ -482,7 +456,6 @@
   <script src="assets/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="assets/js/traducao.js"></script>
-
 
 </body>
 

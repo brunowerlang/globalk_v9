@@ -48,12 +48,14 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    <div class="container container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto" aria-label="GlobalK Homepage">
         <img src="assets/img/logo-1.png" alt="Logo GlobalK - Empresa de soluções para entrada no mercado brasileiro" class="logo-red">
@@ -82,59 +84,106 @@
   </header>
 
   <main class="main">
+<!-- Hero Section -->
+<section id="hero" class="hero section dark-background py-5" aria-label="Introdução à GlobalK">
+  <div class="container">
+    <div class="row align-items-center text-center text-lg-start">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background row" aria-label="Introdução à GlobalK">
-
-      <div class="hero-video" style="background-image: url('assets/img/fundo-video-hero.jpg');">
-        <video autoplay muted loop playsinline class="hero-video" data-aos="fade-in">
-          <source src="assets/img/video-gero.mp4" type="video/mp4">
-        </video>
+      <!-- Coluna da direita: imagem (aparece primeiro no mobile) -->
+      <div class="col-lg-6 order-1 order-lg-2 mt-4 mt-lg-0" data-aos="fade-left">
+        <img src="/assets/img/hero-1.png" alt="GlobalK Brasil" class="img-fluid">
       </div>
-      
-      <div class="container d-flex flex-column align-items-center text-center px-5 px-lg-0">
-        <h2 data-aos="fade-up" data-aos-delay="100">GlobalK is your gateway</h2>
-        <h2 data-aos="fade-up" data-aos-delay="150">to the Brazilian market.</h2>
-        <p data-aos="fade-up" data-aos-delay="200">We have know how to insert new products in the Brazilian market.</p>
-        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="#about" class="btn-get-started" title="Saiba mais sobre nossos serviços">Get Started</a>
+
+      <!-- Coluna da esquerda: textos -->
+      <div class="col-lg-6 order-2 order-lg-1 mt-5" data-aos="fade-up">
+        <h2 class="mb-3">your gateway to the Brazilian market.</h2>
+        <a href="#about" class="btn btn-primary mt-4 btn-get-started">Get Started</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about" class="about section" aria-label="About GlobalK">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="section-title" data-aos="fade-up">
+      <h2>About</h2>
+      <p>Services</p>
+    </div>
+
+    <div class="row">
+
+
+      <!-- Item 1 -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start border-top pt-4 mb-4">
+          <i class="bi bi-laptop" style="font-size: 30px;"></i>
+          <div class="mx-3">
+            <strong class="text-warning">01</strong>
+            <h6 class="fw-bold">Product Development</h6>
+            <p class="text-muted">Creation and optimization of technology products, including notebooks, desktops, and tablets.</p>
+          </div>
         </div>
       </div>
-    </section><!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section service-details">
-
-      <!-- Section Title -->
-      <div class="container section-title px-4 px-lg-0 " data-aos="fade-up" id="">
-        <h2>About</h2>
-        <p>End-to-End Market Entry</p>
-        <h3>Comprehensive support for foreign companies entering Brazil, from legal setup to logistics, marketing, and operations.</h3>
-      </div><!-- End Section Title -->
-
-      <div class="container ">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a  title="Desenvolvimento de produtos tecnológicos"><span>Product Development:</span> <p>Creation and optimization of technology products, including notebooks, desktops, and tablets.</p></a>
-              <a  title="Revitalização de marcas icônicas"><span>Brand Revitalization:</span> <p>Rebuilding iconic brands like Compaq through strategic partnerships and manufacturing.</p></a>
-              <a  title="Gestão de outlets de eletrônicos"><span>Electronics Outlet Management:</span> <p>Operating a 1,950 m² outlet in Sorocaba with a focus on Open Box products.</p></a>
-              <a  title="Operações de e-commerce em múltiplas plataformas"><span>E-commerce Operations:</span> <p>Direct and comprehensive online sales through Mercado Livre, Amazon, Kabum, Magalu, and other platforms.</p></a>
-              <a  title="Suporte completo ao cliente"><span>Customer Support:</span> <p>Full support through SAC and online complaint management.</p></a>
-            </div>
+      <!-- Item 2 -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start border-top pt-4 mb-4">
+       <i class="bi bi-arrow-clockwise" style="font-size: 30px;"></i>
+          <div class="mx-3">
+            <strong class="text-warning">02</strong>
+            <h6 class="fw-bold">Brand Revitalization</h6>
+            <p class="text-muted">Rebuilding iconic brands like Compaq through strategic partnerships and manufacturing.</p>
           </div>
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/exemplo-1.png" alt="Demonstração dos serviços da GlobalK para entrada no mercado brasileiro" class="img-fluid services-img">
-          </div>
-
         </div>
-
       </div>
 
-    </section><!-- /About Section -->
+      <!-- Item 3 -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start border-top pt-4 mb-4">
+          <i class="bi bi-bag" style="font-size: 30px;"></i>
+          <div class="mx-3">
+            <strong class="text-warning">03</strong>
+            <h6 class="fw-bold">Electronics Outlet Management</h6>
+            <p class="text-muted">Operating a 1,950 m² outlet in Sorocaba with a focus on Open Box products.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start border-top pt-4 mb-4">
+          <i class="bi bi-cart" style="font-size: 30px;"></i>
+          <div class="mx-3">
+            <strong class="text-warning">04</strong>
+            <h6 class="fw-bold">E-commerce Operations</h6>
+            <p class="text-muted">Online sales through Mercado Livre, Amazon, Kabum, Magalu, and other platforms.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start border-top pt-4 mb-4">
+          <i class="bi bi-info-circle" style="font-size: 30px;"></i>
+          <div class="mx-3">
+            <strong class="text-warning">05</strong>
+            <h6 class="fw-bold">Customer Support</h6>
+            <p class="text-muted">Full support through SAC and online complaint management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
 <!-- Stats Section -->
@@ -187,6 +236,12 @@
 </section>
 
 
+
+
+
+
+
+
     <!-- Clients Section -->
     <section id="clients" class="clients section dark-background">
 
@@ -217,161 +272,73 @@
     </section><!-- /Clients Section -->
 
 
-    <!-- Business Units2 -->
+
+      <!-- Business Units2 -->
     <section id="features" class="features section">
 
+       <div class="container">
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="section-title" data-aos="fade-up">
         <h2>Services</h2>
         <p>Business Units<br></p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+     
   
-        <ul class="nav nav-tabs row d-flex px-2 px-lg-5" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item col-xl-3 col-md-3 col-6 my-2 ">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <i class="bi bi-globe d-none d-sm-block"></i>
-              <h4 class="d-block">GlobalK</h4>
-            </a>
-          </li>
-          <li class="nav-item col-xl-3 col-md-3 col-6 my-2 ">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-box-seam d-none d-sm-block"></i>
-              <h4 class="d-block">Economize.vc</h4>
-            </a>
-          </li>
-          <li class="nav-item col-xl-3 col-md-3 col-6 my-2 ">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <i class="bi bi-tools d-none d-sm-block"></i>
-              <h4 class="d-block">Multi-K</h4>
-            </a>
-          </li>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"  data-aos="fade-up">
+
+      <!-- Item 1 -->
+      <div class="col">
+        <div class="d-flex text-center">
           
-          <li class="nav-item col-xl-3 col-md-3 col-6 my-2 ">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-              <i class="bi bi-shop d-none d-sm-block"></i>
-              <h4 class="d-block">Marketplaces</h4>
-            </a>
-          </li>
-        </ul><!-- End Tab Nav -->
-  
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-  
-          <div class="tab-pane fade active show px-2 px-lg-5" id="features-tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-
-                <h3>Smart Solutions to Drive Your Business Forward</h3>
-                <h2>Building connections with agility for 15 years</h2>
-                <p>
-                  At GlobalK, we combine innovation and technology to transform challenges into opportunities.
-                  Our commitment is to deliver efficiency and sustainable growth for your business.
-                </p>
-                <ul>
-                 
-                  <li><i class="bi bi-check2-all"></i> <span>We bridge the gap for international brands entering Brazil, offering comprehensive end-to-end solutions.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span> Count on security and reliability at every stage of your operations.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Our expert support ensures maximum performance and results.</span></li>
-                </ul>
-                <p>
-                  With a strategic mindset and customized solutions, we help your company grow through innovation and efficiency.
-                  Discover how GlobalK can elevate your business to the next level.
-                </p>
-                <a href="globalk.html" class="btn-get-started" title="Conheça mais sobre a GlobalK">See More</a>
-
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/page-globalk/globalk.png" alt="Equipe GlobalK trabalhando em soluções inovadoras para empresas" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-
-
-          <div class="tab-pane fade" id="features-tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column">
-                <h3>Durable and reliable packaging, Premium Quality - Smart Prices</h3>
-                <p>
-                  Economize.vc offers premium open-box products, meticulously inspected, thoroughly tested, and professionally repackaged to ensure top performance.
-Explore a wide range of high-quality items, each with full functionality, all at unbeatable prices. Enjoy exceptional value and confidence with every purchase.
-                 </p>
-                <p class="fst-italic">
-                  Premium quality at open-box prices — the smart choice for discerning buyers.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Every product comes in carefully crafted packaging</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Undergoes a rigorous quality certification process</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Guaranteed full performance with a 90-day warranty</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Premium quality without the premium price</span></li>
-                </ul>
-                <a href="economize.html" class="btn-get-started" title="Compre produtos premium com preços acessíveis">Shop Premium Open-Box</a>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/economize-unit.jpg" alt="Eletrônicos premium open-box em embalagens originais da Economize.vc" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-          
-  
-          <div class="tab-pane fade" id="features-tab-3">
-            <div class="row ">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-
-                <h3>Get Organized with Multi-K</h3>
-                <p>
-                  Tired of tangled cables and clutter? Multi-K is here to offer smart, practical solutions to keep your space tidy. Our organizers are designed to help you stay efficient at home, at work, or on the go.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Durable and versatile products for organizing cables, cords, and tools.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Functional design that makes everyday organization easy and convenient.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Modern solutions for people who value simplicity and order.</span></li>
-                </ul>
-                <p class="fst-italic">
-                  Start your organization journey with Multi-K — where quality meets practicality.
-                </p>
-                <a href="products.html" class="btn-get-started" title="Veja nossos produtos organizadores">View Products</a>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/multi-k.png" alt="Organizadores Multi-K para cabos e acessórios" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-          
-          
-  
-          <div class="tab-pane fade" id="features-tab-4">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex justify-content-center flex-column ">
-
-                <h3>Shop Smart with Global-K — Open Box and New Products at the Best Prices
-                </h3>
-                <p>
-                 Global-K brings you unbeatable deals on open box and new products through Brazil’s most trusted marketplaces — including Americanas, Mercado Livre, Amazon, and Magalu.
-</p>
-                <p class="fst-italic">
-                  
-Our products are fully tested, certified functional, and guaranteed to deliver top performance at a lower price.
-
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Save more with certified open box items — reliable quality, secure shopping, and fast delivery, all available on your favorite platforms.</span></li>
-          
-                </ul>
-                <a href="https://www.mercadolivre.com.br/perfil/GLOBAL-K" class="btn-get-started" target="_blank" rel="noopener" title="Visite nossa loja no Mercado Livre">Explore Our Offers</a>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/marketplace.png" alt="Ofertas de produtos open box da Global-K em marketplaces" class="img-fluid">
-              </div>
-            </div>
-          </div><!-- End Tab Content Item -->
-          
-  
+          <div>
+            <i class="bi bi-globe-americas" style="font-size: 30px;"></i>
+            <h6 class="fw-semibold mb-4 text-center">GlobalK</h6>
+            <p class="text-muted small mb-0 text-center">GlobalK conecta marcas internacionais ao mercado brasileiro com soluções completas, combinando inovação, tecnologia e eficiência para impulsionar o crescimento dos negócios.</p>
+          </div>
         </div>
-  
       </div>
-  
-    </section> 
+
+      <!-- Item 2 -->
+      <div class="col">
+        <div class="d-flex text-center">
+       
+          <div>
+            <i class="bi bi-box-seam" style="font-size: 30px;"></i>
+            <h6 class="fw-semibold mb-4">Economize.vc</h6>
+            <p class="text-muted small mb-0">Economize.vc delivers premium open-box products—fully tested, certified, and repackaged for top performance—offering smart value without compromising on quality.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="col">
+        <div class="d-flex text-center">
+
+          <div>
+            <i class="bi-grid-3x3-gap" style="font-size: 30px;"></i>
+            <h6 class="fw-semibold mb-4">Multi-K</h6>
+            <p class="text-muted small mb-0">Multi-K offers smart, durable organizers that simplify your space—perfect for cables, tools, and everyday essentials. Practical design, modern convenience.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="col">
+        <div class="d-flex text-center">
+          <div>
+            <i class="bi-bag-check" style="font-size: 30px;"></i>
+            <h6 class="fw-semibold mb-4">Marketplaces</h6>
+            <p class="text-muted small mb-0">Global-K delivers certified open box and new products at unbeatable prices — shop securely on top marketplaces like Amazon, Magalu, and Mercado Livre. Quality you trust, prices you love.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+</section>
+
 
 
 

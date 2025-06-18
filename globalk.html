@@ -27,7 +27,47 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-
+  <style>
+    .content-box {
+      background: #f8f9fa;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .content-box h2 {
+      color: var(--accent-color);
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+    
+    .content-box p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+    
+    @media (max-width: 768px) {
+      .content-box {
+        padding: 30px 20px;
+        margin-top: 30px;
+      }
+      
+      .content-box h2 {
+        font-size: 1.5rem;
+      }
+      
+      .content-box p {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 
 <body class="business-page">
@@ -70,7 +110,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-globalk/fundo.jpg);">
+    <div class="page-title dark-background" data-aos="fade" >
       <div class="container position-relative">
         <h1>Your Complete Brazil Market Entry Partner</h1>
         <p>
@@ -80,7 +120,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Project Details</li>
+            <li class="current">GlobalK</li>
           </ol>
         </nav>
       </div>
@@ -122,39 +162,17 @@
                   <img src="assets/img/page-globalk/IMG_2105.jpg" alt="Digital product by Globalk">
                 </div>
   
-  
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
   
           <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>GlobalK</h3>
-              <ul>
-                <li>Category:</li> <p>A gateway for those looking to sell in Brazil</p>
-
-                <li>Business:</li> <p>End-to-End Market Entry</p>
-
-                <li>Differential:</li> <p>From customs clearance to customer service - we handle the entire chain</p>
-                <li>Website:</li> <a href="https://www.globalk.com.br" target="_blank">www.globalk.com.br</a>
-              </ul>
-            </div>
-            
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+            <div class="content-box" data-aos="fade-up" data-aos-delay="200">
               <h2>End-to-End Brazilian Market Entry Solutions</h2>
               <p>
-                GlobalK delivers complete, turnkey solutions for international companies looking to expand into Brazil.
-</p> 
-                <p>Our integrated services cover the entire operational chain — from business registration and regulatory compliance to nationwide distribution through our logistics hub in Sorocaba.
-                </p> 
-                <p>
-                  We manage multi-channel sales across major marketplaces, our physical outlet, and e-commerce platforms, while providing full after-sales support.
-                </p>
-
-                <p>
-                  As your single-point partner, we simplify the complexities of entering the Brazilian market — so you can stay focused on your core business while we take care of everything locally.
-                </p>
+                GlobalK delivers complete, turnkey solutions for international companies looking to expand into Brazil. Our integrated services cover the entire operational chain — from business registration and regulatory compliance to nationwide distribution through our logistics hub in Sorocaba. We manage multi-channel sales across major marketplaces, our physical outlet, and e-commerce platforms, while providing full after-sales support. As your single-point partner, we simplify the complexities of entering the Brazilian market — so you can stay focused on your core business while we take care of everything locally.
+              </p>
             </div>
           </div>
   
@@ -221,8 +239,6 @@
             </div>
           </div>
         </div><!-- End Service Item -->
-
-        
 
       </div>
 
@@ -346,8 +362,6 @@
             </ul>
           </div>
   
-        
-  
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
@@ -369,8 +383,6 @@
       </div>
   
     </footer>
-  
-
 
     <button id="translateButton"  ></button>
     <button id="translateButton2" ></button>

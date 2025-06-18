@@ -248,7 +248,6 @@ h6 {
   border-radius: 4px;
   transition: 0.3s;
   text-transform: uppercase;
-  border: 2px solid var(--contrast-color);
 }
 
 .header .cta-btn:hover,
@@ -880,6 +879,7 @@ h6 {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .page-title .breadcrumbs ol {
@@ -973,6 +973,9 @@ section,
 }
 
 
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1006,13 +1009,6 @@ section,
   padding: 0 !important;
 }
 
-.hero:before {
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
 
 .hero .container {
   position: relative;
@@ -1021,7 +1017,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 55px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1043,6 +1039,7 @@ section,
   border-radius: 4px;
   transition: 0.3s;
   text-transform: uppercase;
+  border: 0px;
 }
 
 .hero .btn-get-started:hover {
@@ -1131,6 +1128,11 @@ margin: auto;
   }
 }
 
+.hero img {
+opacity: 0.4;
+
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -1168,9 +1170,6 @@ margin: auto;
   color: var(--accent-color);
 }
 
-.about .content .ul span {
-
-}
 
 .about .content p:last-child {
   margin-bottom: 0;
@@ -1181,6 +1180,13 @@ margin: auto;
   left: calc(50% - 47px);
   top: calc(50% - 47px);
 }
+
+.about .text-warning {
+color: #691700 !important;
+
+}
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
