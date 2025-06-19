@@ -1,9 +1,9 @@
 
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Inter",  sans-serif;
+  --default-font: "Poppins",  sans-serif;
+    --heading-font: "Poppins",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -870,9 +870,10 @@ h6 {
 
 .page-title:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: url('/assets/img/kakaka.png') center center / cover no-repeat;
   position: absolute;
   inset: 0;
+  opacity: 0.1;
 }
 
 .page-title h1 {
@@ -1018,7 +1019,7 @@ section,
 .hero h2 {
   margin: 0;
   font-size: 55px;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
@@ -1154,16 +1155,17 @@ opacity: 0.4;
  position: relative;
 }
 
-i:after {
+.about i:after {
 
       content: "";
-    background-color: #ff00004d;
+    background-color: #691700;
+    opacity: .5;
     border-radius: 50%;
     position: absolute;
     bottom: -2px;
     right: -3px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     z-index: 0;
 }
 
@@ -1217,6 +1219,7 @@ color: #691700 !important;
 
 }
 
+@media (min-width: 768px) {
 .detalhe-bg {
 
   background-image: url(/assets/img/detalhe-fundo-bg.svg);
@@ -1225,12 +1228,12 @@ color: #691700 !important;
     position: absolute;
 background-size: cover;
 }
-
+}
 
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
-.stats .stats-item {
+ .stats-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
   padding: 15px 30px;
@@ -1241,6 +1244,11 @@ background-size: cover;
   font-size: 30px;
   line-height: 0;
   margin-right: 20px;
+}
+
+.stats-item i::after {
+
+  content: none;
 }
 
 .stats .stats-item span {
@@ -2244,3 +2252,44 @@ color: var(--nav-dropdown-color) !important;
   overflow: visible;
   position: relative;
 }
+
+
+.content-box {
+      background: #f8f9fa;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .content-box h2 {
+      color: var(--accent-color);
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+    
+    .content-box p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+    
+    @media (max-width: 768px) {
+      .content-box {
+        padding: 30px 20px;
+        margin-top: 30px;
+      }
+      
+      .content-box h2 {
+        font-size: 1.5rem;
+      }
+      
+      .content-box p {
+        font-size: 1rem;
+      }
+    }
