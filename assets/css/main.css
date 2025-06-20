@@ -2136,10 +2136,6 @@ display: none;
 }
 
 
-.history-page .navmenu a, .navmenu a:focus {
-color: var(--nav-dropdown-color) !important;
-
-}
 
  .history-page .scrolled .header a {
   color: #fff !important;
