@@ -2295,7 +2295,7 @@ display: none;
 
 .section,
 .stats {
-  overflow: visible;
+  overflow: hidden;
   position: relative;
 }
 
