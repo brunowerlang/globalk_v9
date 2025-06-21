@@ -825,7 +825,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 10px;
+  right: 20px;
   bottom: 22px;
   z-index: 99999;
   background-color: var(--accent-color);
@@ -1507,6 +1507,11 @@ background-size: cover;
 @media (max-width: 992px) {
 .features .tab-pane h2 {
   font-size: 18px;
+}
+
+.features-item {
+  width: 95%;
+  margin: 1rem auto;
 }
 }
 
@@ -2205,7 +2210,7 @@ display: none;
   cursor: pointer;
   position: fixed;
   bottom: 22px;
-  right: 190px; /* Alinhamento à direita, ajustado para o primeiro botão */
+  right: 200px; /* Alinhamento à direita, ajustado para o primeiro botão */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   z-index: 99999;
@@ -2222,7 +2227,7 @@ display: none;
   cursor: pointer;
   position: fixed;
   bottom: 22px;
-  right: 130px; /* Alinhamento à direita, ajustado para o segundo botão */
+  right: 140px; /* Alinhamento à direita, ajustado para o segundo botão */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   z-index: 99999;
@@ -2239,7 +2244,7 @@ display: none;
   cursor: pointer;
   position: fixed;
   bottom: 22px;
-  right: 70px; /* Alinhamento à direita, ajustado para o terceiro botão */
+  right: 80px; /* Alinhamento à direita, ajustado para o terceiro botão */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   z-index: 99999;
