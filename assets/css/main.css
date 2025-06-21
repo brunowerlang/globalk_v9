@@ -49,6 +49,15 @@
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+body {
+  overflow-x: hidden;
+}
+
+}
+
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -1365,7 +1374,7 @@ background-size: cover;
 
 @media (max-width: 640px) {
   .clients .client-logo img {
-    padding: 20px;
+    padding: 0px;
   }
 }
 
