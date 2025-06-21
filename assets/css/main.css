@@ -50,12 +50,6 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 
-@media (max-width: 767px) {
-body {
-  overflow-x: hidden;
-}
-
-}
 
 
 body {
@@ -1363,7 +1357,7 @@ background-size: cover;
 
 .clients .client-logo img {
   padding: 20px 40px;
-  max-width: 90%;
+  max-width: 250px;
   transition: 0.3s;
 }
 
@@ -1376,6 +1370,12 @@ background-size: cover;
   .clients .client-logo img {
     padding: 0px;
   }
+
+  .clients .client-logo img {
+  padding: 20px 40px;
+  max-width: 150;
+  transition: 0.3s;
+}
 }
 
 /*--------------------------------------------------------------
@@ -1394,7 +1394,6 @@ background-size: cover;
 
 .client-logo {
   flex: 0 0 auto;
-  width: 12.5%; /* 100% dividido por 8 logos (4 reais + 4 duplicados) */
   text-align: center;
   padding: 0 20px;
 }
