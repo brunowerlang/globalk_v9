@@ -50,7 +50,7 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 main {
-    overflow-x: hidden;
+  overflow-x: hidden;
 
 }
 
@@ -59,7 +59,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
-  overflow-x: hidden !important;
+  overflow-x: hidden;
   margin: auto !important;
 }
 
@@ -990,7 +990,7 @@ section,
 
   .hero {
 
-    width: 105% !important;
+    width: 100% !important;
     overflow-x:hidden !important;
   }
 }
@@ -2295,7 +2295,6 @@ display: none;
 
 .section,
 .stats {
-  overflow: hidden;
   position: relative;
 }
 
