@@ -920,7 +920,7 @@ section,
   background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 90px;
-  overflow: clip;
+  overflow: hidden !important
 }
 
 @media (max-width: 1199px) {
@@ -2295,6 +2295,7 @@ display: none;
 
 .section,
 .stats {
+    overflow: hidden !important;
   position: relative;
 }
 
