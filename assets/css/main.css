@@ -1910,7 +1910,7 @@ font-size: 13px;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
-  border: 2px dotted color-mix(in srgb, var(--accent-color), transparent 40%);
+  border: 2px dotted #fff;
 }
 
 .contact .info-item h3 {
