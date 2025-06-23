@@ -674,8 +674,8 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var( --surface-color);
+  border-color: var( --surface-color);
 }
 
 .footer h4 {
@@ -1519,6 +1519,10 @@ padding-top: 7rem;
 }
 }
 
+.features img {
+
+ max-width: 200px !important;
+}
 
 .features .tab-pane ul {
   list-style: none;
