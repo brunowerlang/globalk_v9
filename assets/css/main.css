@@ -674,8 +674,8 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var( --surface-color);
-  border-color: var( --surface-color);
+  color: var(--contrast-color);
+  border-color: var(--contrast-color);
 }
 
 .footer h4 {
@@ -719,7 +719,7 @@ h6 {
 }
 
 .footer .footer-links ul a:hover {
-  color: var(--accent-color);
+  color: var(--contrast-color);
 }
 
 .footer .footer-contact p {
@@ -1259,7 +1259,7 @@ background-size: cover;
 }
 
 .stats {
-padding-top: 7rem;
+padding-top: 9rem;
 
 }
 
@@ -1520,8 +1520,8 @@ padding-top: 7rem;
 }
 
 .features img {
-
- max-width: 200px !important;
+    max-width: 45px !important;
+    margin-right: 20px;
 }
 
 .features .tab-pane ul {
