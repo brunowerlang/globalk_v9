@@ -1983,7 +1983,10 @@ font-size: 13px;
   margin-bottom: 0;
   font-size: 14px;
   text-align: center;
-  color: var(--contrast-color) !important;
+  color: #ffffff !important;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent !important;
 }
 
 .contact .php-email-form {
