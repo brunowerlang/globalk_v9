@@ -657,6 +657,7 @@ h6 {
 .footer .footer-about p {
   font-size: 14px;
   font-family: var(--heading-font);
+  color: var(--contrast-color) !important;
 }
 
 .footer .social-links a {
@@ -920,7 +921,6 @@ section,
   background-color: var(--background-color);
   padding: 60px 0;
   scroll-margin-top: 90px;
-  overflow: hidden !important
 }
 
 @media (max-width: 1199px) {
@@ -977,6 +977,12 @@ section,
     font-size: 15px !important;
     font-weight: 400;
   }
+
+  .section-title {
+  padding: 0 1rem 4rem 1rem !important;
+  position: relative;
+}
+
 }
 
 
@@ -1224,6 +1230,19 @@ background-size: cover;
 }
 }
 
+@media (max-width: 767px) {
+
+  .about h5 {
+
+    font-size: 20px;
+  }
+
+  .about .service-item {
+    padding: 0 1rem;
+
+  }
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
@@ -1258,17 +1277,14 @@ background-size: cover;
   font-size: 16px;
 }
 
-.stats {
-padding-top: 9rem;
 
-}
 
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 .services .img {
   border-radius: 8px;
-  overflow: hidden;
+
 }
 
 .services .img img {
@@ -1442,12 +1458,13 @@ padding-top: 9rem;
 .features h6 {
       font-size: 50px;
       text-transform: uppercase;
+      margin-bottom: 0;
 }
 
 @media (max-width: 767px) {
 
   .features h6 {
-      font-size: 36px;
+      font-size: 30px;
       text-transform: uppercase;
 }
 }
@@ -1520,7 +1537,7 @@ padding-top: 9rem;
 }
 
 .features img {
-    max-width: 45px !important;
+    max-width: 45px;
     margin-right: 20px;
 }
 
@@ -1562,6 +1579,24 @@ padding-top: 9rem;
   background-repeat: no-repeat;
   opacity: 0.1; /* Aqui você controla a opacidade da imagem */
   z-index: -1;
+}
+
+@media (max-width: 767px) {
+
+  .features::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/fundo---.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1; /* Aqui você controla a opacidade da imagem */
+  z-index: -1;
+}
 }
 
 
@@ -1951,6 +1986,7 @@ font-size: 13px;
   margin-bottom: 0;
   font-size: 14px;
   text-align: center;
+  color: var(--contrast-color) !important;
 }
 
 .contact .php-email-form {
@@ -2327,9 +2363,7 @@ display: none;
 }
 
 
-.section,
-.stats {
-    overflow: hidden !important;
+.section{
   position: relative;
 }
 
@@ -2369,3 +2403,13 @@ display: none;
         font-size: 1rem;
       }
     }
+
+
+    /* CONTAINER */
+
+    @media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
+ {
+             max-width: 1140px !important;
+    }
+}
