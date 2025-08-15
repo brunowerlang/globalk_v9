@@ -992,6 +992,11 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+.hero-video video {
+  transition: opacity 1s ease; /* fade suave quando aparecer */
+}
+
 @media (max-width: 1199px) {
 
   .hero {
@@ -1581,7 +1586,7 @@ background-size: cover;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/fundo---.png');
+  background-image: url('/assets/img/fundo---.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2368,6 +2373,11 @@ display: none;
 }
 
 
+  .content-box ul a {
+    color: #FFF;
+    text-decoration: underline;
+  }
+
 .content-box {
       padding: 40px;
       border-radius: 10px;
@@ -2387,6 +2397,7 @@ display: none;
     .content-box p {
       line-height: 1.6;
       margin-bottom: 0;
+      text-indent: 2em;
     }
     
     @media (max-width: 768px) {

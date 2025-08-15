@@ -211,3 +211,14 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+
+  window.addEventListener("load", function () {
+    const video = document.getElementById("bg-video");
+    video.setAttribute("autoplay", true);
+    video.load(); // começa a carregar
+    video.play().catch(() => {}); // tenta iniciar
+    video.style.opacity = 1; // aparece suavemente
+  });
+
