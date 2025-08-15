@@ -1,5 +1,5 @@
 <?php
-$to = 'bruno@creativecorner.com.br';
+$to = 'globalk@globalk.com.br';
 $subject = "Nova inscrição na newsletter";
 $message = "Novo inscrito: ".$_POST['email'];
 $headers = "From: contato@seudominio.com"; // use um e-mail do seu domínio
