@@ -131,41 +131,7 @@
 
 <body class="history-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo-1.png" alt="" class="logo-red">
-         <img src="assets/img/logo-2.png" alt="" class="logo-white"> 
-        
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html#hero" >Home</a></li>
-          <li><a href="index.html#about">Services</a></li>
-          
-
-          <li class="dropdown active"><a href="#features"><span>Business Units</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="globalk.html">Globalk</a></li>
-              <li><a href="economize.html">Economize</a></li>
-              <li><a href="troqueseupc.html">Multi-K</a></li>
-               <li><a href="safek.html">Safe-K</a></li>
-            </ul>
-          </li>
-
-          <li><a href="history.html" class="active" >History</a></li>
-        
- 
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="cta-btn" href="#contact">Contact</a>
-
-    </div>
-  </header>
+<?php include 'header.php'; ?>
 
   <main class="main " >
  <!-- Page Title -->
@@ -219,7 +185,7 @@
         </div>
 
         <!-- 2018 -->
-        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="800">
           <div class="timeline-year">
             <h2>2018</h2>
           </div>

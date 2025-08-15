@@ -254,6 +254,7 @@ h6 {
   border-radius: 4px;
   transition: 0.3s;
   text-transform: uppercase;
+      font-weight: 600;
 }
 
 .header .cta-btn:hover,
@@ -344,7 +345,10 @@ h6 {
 
 }
 
-
+.scrolled .header a {
+    color: var(--nav-dropdown-color) !important;
+    border-color: var(--nav-dropdown-color) !important;
+}
 
 
 
@@ -381,13 +385,13 @@ h6 {
     padding-right: 0;
   }
 
-  .navmenu a,
-  .navmenu a:focus {
+#navmenu > ul > li > a,
+#navmenu > ul > li > a:focus {
     color: var(--nav-color);
     font-size: 13px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -396,6 +400,13 @@ h6 {
     position: relative;
     text-transform: uppercase;
   }
+
+/* Links dentro do dropdown (subnível) */
+#navmenu ul ul li a,
+#navmenu ul ul li a :focus{
+    font-weight:500;
+  }
+
 
   .navmenu a i,
   .navmenu a:focus i {
@@ -2228,21 +2239,11 @@ display: none;
   
   }
 
-  .history-page .header .logo-red {
 
-    display: block !important;
-  }
-
-
-  .history-page .header .logo-white {
-
-    display: none !important;
-  }
 
   .history-page .header .cta-btn {
 
     border-color: var(--nav-dropdown-color);
-    color: var(--nav-dropdown-color);
   }
 
 

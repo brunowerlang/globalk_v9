@@ -27,90 +27,50 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-
+  <style>
+    
+  </style>
 </head>
 
 <body class="business-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo-1.png" alt="" class="logo-red">
-         <img src="assets/img/logo-2.png" alt="" class="logo-white"> 
-        
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html#hero" >Home</a></li>
-          <li><a href="index.html#about">Services</a></li>
-       
-
-          <li class="dropdown active"><a href="#features"><span>Business Units</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="globalk.html">Globalk</a></li>
-              <li><a href="economize.html">Economize</a></li>
-              <li><a href="multik.html">Multi-K</a></li>
-               <li><a href="safek.html">Safe-K</a></li>
-            </ul>
-          </li>
-
-          <li><a href="history.html">History</a></li>
-        
+ <?php include 'header.php'; ?>
  
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
 
-      <a class="cta-btn" href="#contact">Contact</a>
 
-    </div>
-  </header>
   <main class="main">
 
-<!-- Page Title -->
-<div class="page-title dark-background" data-aos="fade">
-  <div class="container position-relative">
-    <h1>ECONOMIZE.VC</h1>
-    <p>Open Box products with quality and affordable prices. Save without giving up trust!</p>
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" >
+      <div class="container position-relative">
+        <h1>Your Complete Brazil Market Entry Partner</h1>
+        <p>
+          Complete Brazil market entry: compliance, logistics, sales and support - 
+          fully managed through one integrated partner.
+        </p>
+      </div>
+    </div><!-- End Page Title -->
 
-  </div>
-</div><!-- End Page Title -->
-<!-- Portfolio Details Section -->
+
+  <!-- Portfolio Details Section -->
 <section id="portfolio-details" class="portfolio-details section dark-background">
   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4 align-items-start">
+    <div class="row gy-4 align-items-center">
 
       <!-- Texto à esquerda -->
       <div class="col-lg-8">
         <div class="content-box" data-aos="fade-up" data-aos-delay="200">
-          <h2>About Economize.vc</h2>
+          <h2>End-to-End Brazilian Market Entry Solutions</h2>
           <p>
-        Economize.vc is a brand under the GlobalK Group, specializing in Open Box products — including new and returned items that undergo rigorous quality control. We sell directly through our own e-commerce platform and major marketplaces, offering competitive prices with guaranteed quality.
-
+            GlobalK delivers complete, turnkey solutions for international companies looking to expand into Brazil. Our integrated services cover the entire operational chain — from business registration and regulatory compliance to nationwide distribution through our logistics hub in Sorocaba. We manage multi-channel sales across major marketplaces, our physical outlet, and e-commerce platforms, while providing full after-sales support. As your single-point partner, we simplify the complexities of entering the Brazilian market — so you can stay focused on your core business while we take care of everything locally.
           </p>
-          <p>
-Our curated selection includes electronics, home appliances, books, and more — with discounts of up to 40% off traditional retail prices. Every product is fully tested, certified, and ready for use. We work exclusively with authorized suppliers to ensure authenticity, safety, and performance.
-          </p>
-
-
-<p>We also develop and implement comprehensive sales strategies for marketplaces such as Amazon, Mercado Livre, Magalu, and Americanas. Our services include inventory and pricing optimization, customer support, and data-driven decision-making — always focused on performance, scalability, and profitability.
-</p>
-          <ul class="mt-4">
-            <li><strong>Category:</strong> Open Box Products – Sold via our e-commerce platform (Economize.vc), physical store and partner marketplaces</li>
-            <li><strong>Business Unit:</strong> Open Box Sales</li>
-            <li><strong>Differential:</strong> Certified Open Box products with full quality assurance</li>
-            <li><strong>Website:</strong> <a href="https://www.economize.vc" target="_blank">www.economize.vc</a></li>
-          </ul>
         </div>
       </div>
 
       <!-- Imagens empilhadas à direita -->
       <div class="col-lg-4">
-        <div class="image-box" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/page-economize/IMG_2042.jpg" alt="App developed by Economize.vc" class="img-fluid rounded shadow-sm mb-3" data-aos="fade-up" data-aos-delay="600">
-          <img src="assets/img/page-economize/IMG_2072.jpg" alt="Digital product by Economize.vc" class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="800">
+        <div class="image-box mb-3" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/img/page-globalk/globalk.jpg" alt="Globalk Team 1" class="img-fluid rounded shadow-sm mb-3" data-aos="fade-up" data-aos-delay="600">
         </div>
       </div>
 
@@ -118,9 +78,9 @@ Our curated selection includes electronics, home appliances, books, and more —
   </div>
 </section>
 
-
-</main>
-
+  
+  </main>
+  
 
   
     <!-- Contact Section -->
@@ -234,12 +194,9 @@ Our curated selection includes electronics, home appliances, books, and more —
               <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Business Units</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">History</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+    
             </ul>
           </div>
-  
-        
   
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Our Newsletter</h4>
@@ -262,8 +219,6 @@ Our curated selection includes electronics, home appliances, books, and more —
       </div>
   
     </footer>
-  
-
 
     <button id="translateButton"  ></button>
     <button id="translateButton2" ></button>

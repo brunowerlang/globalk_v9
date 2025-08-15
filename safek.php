@@ -32,84 +32,55 @@
 
 <body class="business-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo-1.png" alt="" class="logo-red">
-         <img src="assets/img/logo-2.png" alt="" class="logo-white"> 
-        
-      </a>
+<?php include 'header.php'; ?>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html#hero" >Home</a></li>
-          <li><a href="index.html#about">Services</a></li>
-       
-
-          <li class="dropdown active"><a href="#features"><span>Business Units</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="globalk.html">Globalk</a></li>
-              <li><a href="economize.html">Economize</a></li>
-              <li><a href="multik.html">Multi-K</a></li>
-               <li><a href="safek.html">Safe-K</a></li>
-            </ul>
-          </li>
-
-          <li><a href="history.html">History</a></li>
-        
- 
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="cta-btn" href="#contact">Contact</a>
-
-    </div>
-  </header>
   <main class="main">
 
- <!-- Page Title -->
+<!-- Page Title -->
 <div class="page-title dark-background" data-aos="fade">
   <div class="container position-relative">
-    <h1>Multi-K</h1>
-    <p>Bringing innovation and practicality to everyday products with our unique solutions.</p>
-    
+    <h1>Safe-K</h1>
+    <p>Phone-free environments, made simple.</p>
   </div>
-</div><!-- End Page Title -->
+</div>
 
 <!-- Portfolio Details Section -->
 <section id="portfolio-details" class="portfolio-details section dark-background">
   <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4 align-items-start">
+    <div class="row gy-4 align-items-center">
 
-      <!-- Texto à esquerda -->
+      <!-- Text on the left -->
       <div class="col-lg-8">
         <div class="content-box" data-aos="fade-up" data-aos-delay="200">
-          <h2>About Multi-K</h2>
+          <h2>About Safe-K</h2>
           <p>
-            Multi-K is a brand under the Global-K Group, specializing in smart organizational solutions.
-            We offer innovative products designed to simplify storage and everyday life — combining functionality, quality, and style. 
+            Safe-K is an innovative solution that creates phone-free environments with ease and respect — without confiscating devices. 
+            Each person keeps their phone, but it remains securely locked inside the pouch during their stay in the protected area, 
+            and is released upon leaving.
           </p>
           <p>
-            Our product line includes cable organizers, cable tags, practical packaging, and space-saving solutions for both home and office.
-            Every item is thoughtfully designed for consumers who value convenience without compromising on aesthetics.  
+            Perfect for schools, universities, companies, events, artists, and organizations that value presence, focus, and genuine 
+            human connection, Safe-K helps build spaces where full attention to the present moment transforms into more human, 
+            creative, and participatory interactions.
           </p>
 
           <ul class="mt-4">
-            <li><strong>Category:</strong> Product Development & Innovation</li>
-            <li><strong>Business Unit:</strong> Multi-K</li>
-            <li><strong>Differential:</strong> High-quality, innovative products with a focus on everyday convenience</li>
-            <li><strong>Website:</strong> <a href="https://www.multik.com.br/" target="_blank">www.multi-k.com</a></li>
+            <li><strong>Category:</strong> Digital Presence & Focus Solutions</li>
+            <li><strong>Product:</strong> Safe-K Pouch for phone-free environments</li>
+            <li><strong>Differential:</strong> Freedom and security without confiscation; focus on the present</li>
+            <li><strong>Ideal for:</strong> Schools, universities, companies, events</li>
+            <li><strong>Website:</strong> <a href="https://www.safek.com.br/" target="_blank">www.safek.com.br</a></li>
           </ul>
         </div>
       </div>
 
-      <!-- Imagens empilhadas à direita -->
+      <!-- Images on the right -->
       <div class="col-lg-4">
         <div class="image-box" data-aos="fade-up" data-aos-delay="400">
-          <img src="assets/img/page-multik/pictures-cable-labels_Prancheta 1-01.jpg" alt="Safe-K pouch in use" class="img-fluid rounded shadow-sm mb-3" data-aos="fade-up" data-aos-delay="600">
-          <img src="assets/img/page-multik/Facetune_27-06-2025-00-25-04-2.jpg" alt="Phone-free environment with Safe-K" class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="800">
+          <!-- Illustrative Safe-K images (replace src with the actual files) -->
+          <img src="assets/img/page-safek/Yondr_Implementation_9_08_2024__G2_0256+copy (1).jpg" alt="Safe-K pouch in use" class="img-fluid rounded shadow-sm mb-3" data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/img/page-safek/foto-site-safek-25.jpg" alt="Phone-free environment with Safe-K" class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="800">
         </div>
       </div>
 
