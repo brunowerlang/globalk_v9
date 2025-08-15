@@ -90,11 +90,12 @@
 <!-- Hero Section -->
 <section id="hero" class="hero section dark-background py-5" aria-label="Introdução à GlobalK">
 <!-- Vídeo de fundo -->
-<div class="hero-video" style="background-image: url('assets/img/fundo-video-hero.jpg');">
-  <video muted loop playsinline class="hero-video" preload="none" data-aos="fade-in" id="bg-video" style="opacity: 0;">
+<div class="hero-video">
+  <video muted loop playsinline class="hero-video" preload="auto" id="bg-video" poster="assets/img/fundo-video-hero.webp" style="opacity: 0;">
     <source src="assets/img/video-hero.mp4" type="video/mp4">
   </video>
 </div>
+
 
 
   <div class="container">
@@ -597,6 +598,17 @@
       "https://www.linkedin.com/company/globalk"
     ]
   }
+  </script>
+
+  <script>
+      window.addEventListener("load", function () {
+    const video = document.getElementById("bg-video");
+    video.setAttribute("autoplay", true);
+    video.load(); // começa a carregar
+    video.play().catch(() => {}); // tenta iniciar
+    video.style.opacity = 1; // aparece suavemente
+  });
+
   </script>
 
   <!-- Dados estruturados para serviços -->
